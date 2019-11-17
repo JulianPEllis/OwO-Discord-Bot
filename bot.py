@@ -5,7 +5,7 @@ import asyncio
 
 TOKEN = "" #Your Token Here
 
-Client = discord.Client
+client = discord.Client
 
 @client.event
 async def on_ready():
